@@ -13,21 +13,21 @@ keywords: touzi, GitHub, Jekyll, Plugins, Works, Archives, Quotes, Violet, css, 
 
 <h1 class="lotus-pagetit">About</h1>
 <article id="about">
-  <article class="article article-first">
+  <article class="lotus-article">
     {{ site.about }}
   </article>
-  <article class="article article-last">
+  <section class="lotus-double fn-clear">
     <h3>联系方式：</h3>
     {% if site.qq %}
-    <p>ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }}) </p>
+    <p>ＱＱ：<a href="tencent://message/?uin={{ site.qq }}">{{ site.qq }}</a></p>
     {% endif %}
-    <p>网站：[{{ site.name }}]({{ site.url }})</p>
+    <p>网站：<a href="{{ site.url }}">{{ site.name }}</a></p>
 
-    <p>邮箱：[{{ site.email }}](mailto:{{ site.email }})</p>
+    <p>邮箱：<a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 
-    <p>GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})</p>
-  </article>
-  <article class="article article-last">
-  <p>[![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})</p>
-  </article>
+    <p>GitHub : <a href="http://github.com/{{ site.github }}">http://github.com/{{ site.github }}</a></p>
+  </section>
+  <section class="lotus-double fn-clear">
+  <p><img src="http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png" alt="新浪微博">http://weibo.com/u/{{ site.weibo }}</img></p>
+  </section>
 </article>
