@@ -6,7 +6,7 @@ paginate: 8
 safe: false
 
 #站点基础配置
-title: iBNew  头子的最新站点
+title: 头子
 subTitle: 工作学习,永无止尽.
 description: 这是 头子 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 头子 对 Jekyll 的学习和使用的一次有意义的实践。
 url: http://touzi.github.io/ibnew
@@ -23,7 +23,8 @@ nav:
     icon: icon-reorder
     class: none
   - text: 关于我
-    url: /contact.html
+    #url: /ibnew/contact.html
+    url: /about/
     icon: icon-envelope-alt
     class: none
   - text: 联系我
