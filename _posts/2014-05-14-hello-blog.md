@@ -1,9 +1,16 @@
 ---
+date: 2014-05-14 02:44:30+00:00
 layout: post
 title: 第一篇blog,搭建blog空间
 description: 其实搭建很简单,只要去fork项目就可以直接运行.原作者已经给了配置介绍,再次不再赘述.
+thread: 1
+categories: 技巧
+tags:  jekyll
 keywords: Markdown
 ---
+
+
+
 
 #####本博客使用jekyll+github+markdown搭建而成.在此感谢Yonsm.本blog源码地址[github](https://github.com/touzi/tblog) 直接fork就可以运行.
 ***

@@ -1,15 +1,13 @@
 ---
-date: 2014-05-14 02:44:30+00:00
+date: 2014-05-16 02:44:30+00:00
 layout: post
 title: 欢迎使用 Cmd - 在线 Markdown 编辑阅读器
-thread: 1
+description: 我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**Cmd Markdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。
+thread: 12
 categories: 技巧
 tags:  markdown
+keywords: Markdown
 ---
-
-# 欢迎使用 Cmd - 在线 Markdown 编辑阅读器
-
-------
 
 我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**Cmd Markdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。
 
