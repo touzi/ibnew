@@ -30,7 +30,7 @@ keywords: touzi, GitHub, Jekyll, Plugins, Works, Archives, Quotes, Violet, css, 
     <ul>
         <li>
             {% for page in site.page %}
-            <a href="{{ page.url }}" rel="bookmark" title="{{page.text}}">{{ page.text }}</a>
+            <a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{page.text}}">{{ page.text }}</a>
             {% if !page.last %}
                 <span class="lotus-squ">|</span>
             {% endif %}
