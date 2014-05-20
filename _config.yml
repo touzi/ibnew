@@ -15,15 +15,15 @@ feed: /atom.xml
 #菜单配置
 nav:
   - text: 首页
-    url: ibnew/index.html
+    url: /ibnew/index.html
     icon: icon-home
     class: home
   - text: 文章归档
-    url: ibnew/archives.html
+    url: /ibnew/archives.html
     icon: icon-reorder
     class: none
   - text: 关于我
-    url: ibnew/contact.html
+    url: /contact.html
     icon: icon-envelope-alt
     class: none
   - text: 联系我
@@ -37,13 +37,13 @@ nav:
 
 page:
   - text: 文章分类
-    url: ibnew/archives.html
+    url: /archives.html
     last: true
   - text: 友情链接
-    url: ibnew/links.html
+    url: /links.html
     last: true
   - text: 关于我
-    url: ibnew/contact.html
+    url: /contact.html
     last: false
 
 author:
