@@ -6,16 +6,16 @@ paginate: 8
 safe: false
 
 #站点基础配置
-title: iLotus
-subTitle: Just another Jekyll blog.
-description: 这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 PIZn 对 Jekyll 的学习和使用的一次有意义的实践。
+title: iBNew  头子的最新站点
+subTitle: 工作学习,永无止尽.
+description: 这是 头子 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 头子 对 Jekyll 的学习和使用的一次有意义的实践。
 url: http://touzi.github.io/ibnew
 feed: /atom.xml
 
 #菜单配置
 nav:
   - text: 首页
-    url: /index.html
+    url: {{ site.url }}/index.html
     icon: icon-home
     class: home
   - text: 文章归档
@@ -27,11 +27,11 @@ nav:
     icon: icon-envelope-alt
     class: none
   - text: 联系我
-    url: http://www.zhanxin.info/contact.html
+    url: https://twitter.com/policetouzi
     icon: icon-heart
     class: none
   - text: 博客源代码
-    url: https://github.com/pizn/iLotus
+    url: https://github.com/touzi/ibnew
     icon: icon-github
     class: none
 
@@ -47,4 +47,4 @@ page:
     last: false
 
 author:
-  name: PIZn
+  name: touzi
