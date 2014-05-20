@@ -11,7 +11,13 @@ subTitle: 工作学习,永无止尽.
 description: 这是 头子 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 头子 对 Jekyll 的学习和使用的一次有意义的实践。
 url: http://touzi.github.io/ibnew
 feed: /atom.xml
-
+#个人信息的配置
+qq: 305749023
+name: 就叫我"头子"吧
+email: policetouzi@163.com
+github: touzi
+weibo: 1622178027
+about: "这里是 touzi 的个人博客，创建于 2014 年。2014年5月迁移到 Jekyll @ GitHub。<br /><br />职业coder，纯北漂，蜗居北京西城.这里包含了部分个人的“折腾”过程、结论和成果，切换到分类模可以更快地找到感兴趣的内容，欢迎观赏、建议、拍砖……"
 #菜单配置
 nav:
   - text: 首页
