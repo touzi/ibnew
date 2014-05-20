@@ -24,7 +24,7 @@ nav:
     class: none
   - text: 关于我
     #url: /ibnew/contact.html
-    url: /about/
+    url: /ibnew/about/
     icon: icon-envelope-alt
     class: none
   - text: 联系我
