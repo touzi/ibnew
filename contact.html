@@ -13,21 +13,21 @@ keywords: touzi, GitHub, Jekyll, Plugins, Works, Archives, Quotes, Violet, css, 
 
 <h1 class="lotus-pagetit">About</h1>
 <article id="about">
+  <article class="article article-first">
     {{ site.about }}
-----
-###联系方式：
+  </article>
+  <article class="article article-last">
+    <h3>联系方式：</h3>
+    {% if site.qq %}
+    <p>ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }}) </p>
+    {% endif %}
+    <p>网站：[{{ site.name }}]({{ site.url }})</p>
 
-{% if site.qq %}
-ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
-{% endif %}
-网站：[{{ site.name }}]({{ site.url }})
+    <p>邮箱：[{{ site.email }}](mailto:{{ site.email }})</p>
 
-邮箱：[{{ site.email }}](mailto:{{ site.email }})
-
-GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
-
-----
-
-[![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})
-
+    <p>GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})</p>
+  </article>
+  <article class="article article-last">
+  <p>[![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})</p>
+  </article>
 </article>
