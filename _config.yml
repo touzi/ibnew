@@ -19,11 +19,11 @@ nav:
     icon: icon-home
     class: home
   - text: 文章归档
-    url: /archives.html
+    url: url/archives.html
     icon: icon-reorder
     class: none
   - text: 关于我
-    url: /contact.html
+    url: url contact.html
     icon: icon-envelope-alt
     class: none
   - text: 联系我
